@@ -18,7 +18,7 @@ class Student:
 S1=Student("Zahid",21,"Male")
 S1.display()
 
-Create a Student class with a method to display details.
+#Create a Student class with a method to display details.
 class Student:
     def __init__(self,name:str,age:int,gender:str):
         self.name=name
