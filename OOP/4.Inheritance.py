@@ -310,3 +310,23 @@ T.name()
 T.Id()
 T.test()
 T.bug()
+
+#MRO
+class A:
+    def hello(self):
+        print("Hello from A")
+
+class B(A):
+    def hello(self):
+        print("Hello from B")
+
+class C(A):
+    def hello(self):
+        print("Hello from C")
+
+class D(B,A):
+    pass
+
+d=D()
+d.hello()
+print(D.__mro__)
