@@ -53,7 +53,7 @@ except:
 
 #Handle NameError when trying to use an undefined variable.
 try:
-    name="Zahid"
+    name="Zahid Khan"
     print(name)
 except:
     print("varialbe is nor defineed")
